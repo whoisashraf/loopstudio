@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+  <link rel="stylesheet" href="style.css">
+ 
+
+  <title>Ashraf Adebayo | Loopstudios landing page</title>
+
+
+</head>
+
+<body>
+
+  <!-- Hero section -->
+
+  <section class="hero">
+    <div class="intro">
+
+
+      <nav>
+        <img src="./images/logo.svg" alt="">
+        <div class="nav">
+          <div class="links" id="links">
+            <i style="margin-top: 40px;"><img src="./images/icon-close.svg" alt="" onclick="hide()"></i>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="#creations">Products</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+          <i><img src="./images/icon-hamburger.svg" alt="" onclick="show()"></i>
+      </nav>
+    </div>
+    <div class="spacer">
+      <p>
+      Immersive<br> experiences<br> that deliver</p>
+    </div>
+  </section>
+
+  <!-- intro section -->
+  <section  id="about">
+    <article class="about">
+      <div class="article">
+        <img src="./images/desktop/image-interactive.jpg" alt="" loading="lazy">
+        <div class="interactive">
+          <h2>The leader in interactive VR</h2>
+          <br><br><br>
+          <p> Founded in 2011, Loopstudios has been producing world-class virtual reality
+            projects for some of the best companies around the globe. Our award-winning
+            creations have transformed businesses through digital experiences that bind
+            to their brand.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- product section -->
+  <section id="creations">
+    <article>
+      <div class="word">
+        <div class="prod">
+          <h2>Our creations</h2>
+          <a href="#">SEE ALL</a>
+        </div>
+      </div>
+      <!-- image gallery -->
+
+      <div class="img-gal">
+        <div style="position: relative;">
+          <img src="./images/desktop/image-deep-earth.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>Deep earth</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-night-arcade.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>Night arcade</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-soccer-team.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>Soccer team VR</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-grid.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>The grid</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-from-above.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>From up above VR</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-pocket-borealis.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>Pocket borealis</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-curiosity.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>The curiosity</p>
+          </div>
+        </div>
+        <div style="position: relative;">
+          <img src="./images/desktop/image-fisheye.jpg" alt="" loading="lazy">
+          <div class="layer">
+            <p>Make it fisheye</p>
+          </div>
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+  <!-- footer section -->
+  <div class="footer">
+    <div class="row">
+      <img src="./images/logo.svg" alt="" loading="lazy">
+      <div>
+        <a href="#"><img src="./images/icon-facebook.svg" alt=""></a>
+        <a href="#"><img src="./images/icon-instagram.svg" alt=""></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt=""></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="f-nav">
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Events</a>
+        <a href="#">Products</a>
+        <a href="#">Support</a>
+      </div>
+      <p style="color:white;padding:20px 0px;margin: auto;width: fit-content;">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <script>
+    var links = document.getElementById("links");
+    function show() {
+      links.style.display = "block";
+    }
+    function hide() {
+      links.style.display = "none";
+      
+    }
+  </script>
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
