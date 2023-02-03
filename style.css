@@ -269,12 +269,13 @@ nav a {
         background: black;
         margin-top: 0px;
         width: 65%;
-        height: 100vh;
+        height: 100%;
         text-align: left;
         z-index: 9;
         display: none;  
         transition: 2s;
-        opacity:.7;
+        opacity:.7; padding-right:25px;
+
     }
 
     .links ul li {
