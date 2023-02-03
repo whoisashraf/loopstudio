@@ -81,7 +81,7 @@ nav a {
 
 /* intro section */
 .article {
-    height: 100vh;
+    height: fit-content;
     background-color: white;
     padding-left: 10%;
     padding-right: 10%;
