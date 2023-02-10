@@ -8,6 +8,11 @@
 
 /* hero section */
 
+@media (min-width:927px) {
+    .weird {
+        margin-right: 0;
+    }
+}
 .hero {
     background-image: url("./images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
