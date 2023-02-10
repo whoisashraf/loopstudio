@@ -7,7 +7,12 @@
 }
 
 /* hero section */
-
+.weird{
+    color:white;
+    padding:20px 0px;
+    margin: auto;
+    width: fit-content;
+}
 @media (min-width:927px) {
     .weird {
         margin-right: 0;
