@@ -143,8 +143,6 @@ nav a {
     color: black;
     padding-left: 30px;
     padding-right: 30px;
-    left: 0;
-    right: 0;
 }
 
 .prod a:hover {
@@ -346,6 +344,8 @@ nav a {
         padding: 7px 15px;
         top: 2300px;
         z-index: 5;
+        left: 0;
+        right: 0;
     }
 
     .img-gal {
