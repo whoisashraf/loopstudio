@@ -145,6 +145,12 @@ nav a {
     padding-right: 30px;
 }
 
+@media (min-width:927px) {
+    .prod a {
+        margin-right: 0;
+    }
+}
+
 .prod a:hover {
     color: white;
     background-color: black;
