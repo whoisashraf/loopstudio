@@ -16,6 +16,8 @@
 @media (min-width:927px) {
     .weird {
         margin-right: 0;
+        color:white;
+        padding:20px 0;
     }
 }
 .hero {
