@@ -160,11 +160,14 @@
   <script>
     var links = document.getElementById("links");
     function show() {
-      links.style.display = "block";
+      if (window.matchMedia("(max-width: 700px)").matches){
+        links.style.display = "block";
+      }
     }
     function hide() {
-      links.style.display = "none";
-      
+      if (window.matchMedia("(max-width: 700px)").matches){
+        links.style.display = "none";
+      }
     }
   </script>
 
