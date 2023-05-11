@@ -1,4 +1,4 @@
 # practice-loopstudio
 A website made by yours truly.
-#Todo
+# Todo
 -fix navbar issues
